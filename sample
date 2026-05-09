@@ -1,0 +1,79 @@
+<VAST version="3.0">
+    <Ad id="preroll0-0">
+        <InLine>
+            <AdSystem>tapsell</AdSystem>
+            <AdTitle>از هر سو پُرسود</AdTitle>
+            <Description>
+                <![CDATA[ https://play-server.tapsell.ir/default-banner/index.html?id=5911a3eb46846548e8e3c3ec&userId=b32b455c-1b72-4413-8d1b-8fe975792be2&ctaId=8f691e44-0e33-484b-a38b-e35d334dde11&suggestionId=ac33a181-4b8e-11f1-ab70-0e06c7ace141&appId=85b4510d-c462-4a72-9809-83decdea9abe&tracker1=https%3A%2F%2Ftrc.metrix.ir%2Febkc2h%2F%3FclickId%3D8f691e44-0e33-484b-a38b-e35d334dde11__85b4510d-c462-4a72-9809-83decdea9abe__ac33a181-4b8e-11f1-ab70-0e06c7ace141__b32b455c-1b72-4413-8d1b-8fe975792be2%26creative_name%3Dvideo_trafficlight_bistplus_wepod%26sub_id%3D85b4510d-c462-4a72-9809-83decdea9abe%26campaign%3Dcpi_wepod_video%26gps_adid%3D54bfa5c8-9917-4f7a-94d5-d16591a60798%26android_id%3D67a005846ac5782e%26adgroup%3Dvideo_trafficlight_bistplus_wepod&tracker2=&tracker3=&tracker4=&landing=https%3A%2F%2Fcafebazaar.ir%2Fapp%2Fcom.dotin.wepod%2F%3Fl%3Dfa&zoneType=4&zoneId=6098cc45a70f100001a5fab5&bundleId=com.piccolo.footballi.server&baseUrl=https://api.tapsell.ir/v2&macro_title=%D8%A7%D8%B2%20%D9%87%D8%B1%20%D8%B3%D9%88%20%D9%BE%D9%8F%D8%B1%D8%B3%D9%88%D8%AF&macro_description=%D8%B3%D9%BE%D8%B1%D8%AF%D9%87%20%D8%B3%D8%B1%D9%85%D8%A7%DB%8C%D9%87%E2%80%8C%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C%20%D8%A8%DB%8C%D8%B3%D8%AA%2B&macro_ctaText=%D8%B3%D8%B1%D9%85%D8%A7%DB%8C%D9%87%E2%80%8C%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C&creativeId=3aa12755-ef98-446c-865a-e467e74978f6 ]]>
+            </Description>
+            <Impression id="impression-0">
+                <![CDATA[ https://cdn.mediaffic.ir/tapsell/app/public-assets/vast-extras/1x1.gif ]]>
+            </Impression>
+            <Creatives>
+                <Creative adID="preroll0-0">
+                    <Linear skipoffset="00:00:05">
+                        <Duration>00:00:10</Duration>
+                        <TrackingEvents>
+                            <Tracking event="skip">
+                                <![CDATA[ https://api.tapsell.ir/v2/video/ac33a181-4b8e-11f1-ab70-0e06c7ace141/skip ]]>
+                            </Tracking>
+                            <Tracking event="midpoint"/>
+                            <Tracking event="thirdQuartile"/>
+                            <Tracking event="mute"/>
+                            <Tracking event="unmute"/>
+                            <Tracking event="pause"/>
+                            <Tracking event="resume"/>
+                            <Tracking event="fullscreen"/>
+                            <Tracking event="close"/>
+                            <Tracking event="acceptInvitation"/>
+                            <Tracking event="start">
+                                <![CDATA[ https://api.tapsell.ir/v2/video/ac33a181-4b8e-11f1-ab70-0e06c7ace141/doing ]]>
+                            </Tracking>
+                            <Tracking event="start">
+                                <![CDATA[ https://api.tapsell.ir/v2/suggestions/ac33a181-4b8e-11f1-ab70-0e06c7ace141/fill ]]>
+                            </Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[ https://api.tapsell.ir/v2/video/ac33a181-4b8e-11f1-ab70-0e06c7ace141/done ]]>
+                            </Tracking>
+                        </TrackingEvents>
+                        <AdParameters>{"callToActionText":"سرمایه‌گذاری"}</AdParameters>
+                        <VideoClicks>
+                            <ClickThrough>
+                                <![CDATA[ https://cafebazaar.ir/app/com.dotin.wepod/?l=fa ]]>
+                            </ClickThrough>
+                            <ClickTracking id="tracking-0">
+                                <![CDATA[ https://api.tapsell.ir/v2/video-banner/redirect?callToActionId=8f691e44-0e33-484b-a38b-e35d334dde11&developerAppId=85b4510d-c462-4a72-9809-83decdea9abe&suggestionId=ac33a181-4b8e-11f1-ab70-0e06c7ace141&zoneId=6098cc45a70f100001a5fab5 ]]>
+                            </ClickTracking>
+                            <ClickTracking id="tracking-1">
+                                <![CDATA[ https://trc.metrix.ir/ebkc2h/?clickId=8f691e44-0e33-484b-a38b-e35d334dde11__85b4510d-c462-4a72-9809-83decdea9abe__ac33a181-4b8e-11f1-ab70-0e06c7ace141__b32b455c-1b72-4413-8d1b-8fe975792be2&creative_name=video_trafficlight_bistplus_wepod&sub_id=85b4510d-c462-4a72-9809-83decdea9abe&campaign=cpi_wepod_video&gps_adid=54bfa5c8-9917-4f7a-94d5-d16591a60798&android_id=67a005846ac5782e&adgroup=video_trafficlight_bistplus_wepod ]]>
+                            </ClickTracking>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" type="video/mp4" bitrate="412000" width="640" height="360">
+                                <![CDATA[ https://cdn.mediaffic.ir/tapsell-app/creative/8f691e44-0e33-484b-a38b-e35d334dde11/1405-01-30/1776601372964$out_1.mp4 ]]>
+                            </MediaFile>
+
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+                <Creative adID="preroll0-0">
+                    <CompanionAds>
+                        <Companion width="320" height="50">
+                            <StaticResource creativeType="image/jpeg">
+                                <![CDATA[ {"imageUrl":"https://cdn.mediaffic.ir/tapsell-app/frontend/preroll/companionAds/57c407a2-6155-4b65-87e4-af88003b1ce2.png"} ]]>
+                            </StaticResource>
+                            <CompanionClickThrough>
+                                <![CDATA[ https://api.tapsell.ir/v2/shorteners/click/send-and-redirect?redirect=https%3A%2F%2Ftrc.metrix.ir%2Febkc2h%2F%3FclickId%3D8f691e44-0e33-484b-a38b-e35d334dde11__85b4510d-c462-4a72-9809-83decdea9abe__ac33a181-4b8e-11f1-ab70-0e06c7ace141__b32b455c-1b72-4413-8d1b-8fe975792be2%26creative_name%3Dvideo_trafficlight_bistplus_wepod%26sub_id%3D85b4510d-c462-4a72-9809-83decdea9abe%26campaign%3Dcpi_wepod_video%26gps_adid%3D54bfa5c8-9917-4f7a-94d5-d16591a60798%26android_id%3D67a005846ac5782e%26adgroup%3Dvideo_trafficlight_bistplus_wepod&tracker=https%3A%2F%2Fapi.tapsell.ir%2Fv2%2Fvideo-banner%2Fredirect%3FcallToActionId%3D8f691e44-0e33-484b-a38b-e35d334dde11%26developerAppId%3D85b4510d-c462-4a72-9809-83decdea9abe%26suggestionId%3Dac33a181-4b8e-11f1-ab70-0e06c7ace141%26zoneId%3D6098cc45a70f100001a5fab5&tracker=https%3A%2F%2Ftrc.metrix.ir%2Febkc2h%2F%3FclickId%3D8f691e44-0e33-484b-a38b-e35d334dde11__85b4510d-c462-4a72-9809-83decdea9abe__ac33a181-4b8e-11f1-ab70-0e06c7ace141__b32b455c-1b72-4413-8d1b-8fe975792be2%26creative_name%3Dvideo_trafficlight_bistplus_wepod%26sub_id%3D85b4510d-c462-4a72-9809-83decdea9abe%26campaign%3Dcpi_wepod_video%26gps_adid%3D54bfa5c8-9917-4f7a-94d5-d16591a60798%26android_id%3D67a005846ac5782e%26adgroup%3Dvideo_trafficlight_bistplus_wepod ]]>
+                            </CompanionClickThrough>
+                        </Companion>
+                    </CompanionAds>
+                </Creative>
+            </Creatives>
+            <Extensions>
+                <Extension type="uiSettings">
+                    <UiHideable>1</UiHideable>
+                </Extension>
+            </Extensions>
+        </InLine>
+    </Ad>
+</VAST>
